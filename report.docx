@@ -1,0 +1,155 @@
+# PRODUCT DATA ANALYSIS REPORT
+
+## 1. Introduction
+
+This project focuses on analyzing product-related data using Python libraries such as Pandas, Matplotlib, and Seaborn. The dataset contains information about product prices, ratings, number of ratings, and bestseller status. The main objective of this analysis is to identify patterns, relationships, and customer behavior based on product popularity and pricing.
+
+---
+
+# 2. Objectives
+
+The objectives of this project are:
+
+* To analyze product pricing and customer ratings
+* To compare bestseller and non-bestseller products
+* To visualize trends using charts and graphs
+* To identify relationships between product price, ratings, and popularity
+* To generate meaningful business insights from the data
+
+---
+
+# 3. Tools and Technologies Used
+
+| Tool/Library     | Purpose                        |
+| ---------------- | ------------------------------ |
+| Python           | Programming language           |
+| Pandas           | Data cleaning and manipulation |
+| Matplotlib       | Data visualization             |
+| Seaborn          | Advanced visualizations        |
+| Jupyter Notebook | Analysis environment           |
+
+---
+
+# 4. Dataset Description
+
+The dataset contains the following columns:
+
+| Column Name         | Description                |
+| ------------------- | -------------------------- |
+| Product_title       | Name of the product        |
+| Product_price       | Price of the product       |
+| Currency            | Currency type              |
+| Product_star_rating | Product rating             |
+| Product_num_ratings | Number of customer ratings |
+| Is_best_seller      | Bestseller status          |
+
+Total records analyzed: 54
+
+---
+
+# 5. Data Cleaning Process
+
+The following preprocessing steps were performed:
+
+* Removed unnecessary spaces and formatting issues
+* Converted price column into numeric format
+* Checked for missing values
+* Verified data types
+* Removed duplicate entries if present
+* Standardized column names
+
+The cleaned dataset was then used for visualization and analysis.
+
+---
+
+# 6. Data Visualizations
+
+## 6.1 Distribution of Product Ratings
+
+A histogram was created to analyze how product ratings are distributed across all products.
+
+### Observation:
+
+Most products have ratings between 4.0 and 4.8, indicating generally positive customer feedback.
+
+---
+
+## 6.2 Bestseller vs Non-Bestseller Analysis
+
+A countplot was used to compare the number of bestseller and non-bestseller products.
+
+### Observation:
+
+The dataset contains more non-bestseller products than bestseller products.
+
+---
+
+## 6.3 Rating vs Number of Ratings
+
+A scatter plot was created to analyze the relationship between product ratings and review counts.
+
+### Observation:
+
+Products with higher ratings tend to receive more customer reviews and engagement.
+
+---
+
+## 6.4 Average Price by Bestseller Status
+
+A bar chart was used to compare the average price of bestseller and non-bestseller products.
+
+### Observation:
+
+Bestseller products are generally lower-priced compared to non-bestseller products.
+
+---
+
+## 6.5 Correlation Heatmap
+
+A heatmap was generated to study the relationship among numerical variables.
+
+### Observation:
+
+* Product price has a slight negative relationship with the number of ratings.
+* Product ratings show weak positive correlation with review count.
+* Product price has almost no relationship with product ratings.
+
+---
+
+## 6.6 Top Reviewed Products
+
+A bar chart was used to identify the products with the highest number of ratings.
+
+### Observation:
+
+A small number of products dominate customer engagement and review activity.
+
+---
+
+# 7. Key Insights
+
+* Most products received high customer ratings.
+* Bestseller products are generally more affordable.
+* Expensive products are less likely to become bestsellers.
+* Lower-priced products tend to receive more reviews.
+* Customer satisfaction is not strongly dependent on product price.
+* Popular products usually maintain ratings above 4.0.
+
+---
+
+# 8. Conclusion
+
+The analysis reveals that pricing plays an important role in determining product popularity. Bestseller products are typically affordable and consistently priced, which may contribute to higher customer engagement and sales. The visualizations also indicate that highly rated products tend to attract more reviews and attention from customers. Overall, the project demonstrates how data analysis and visualization techniques can help businesses understand customer behavior and product performance.
+
+---
+
+ 9. Future Improvements
+
+Future enhancements may include:
+
+* Analyzing larger datasets
+* Applying machine learning for bestseller prediction
+* Performing sentiment analysis on customer reviews
+* Creating interactive dashboards using Power BI or Tableau
+
+---
